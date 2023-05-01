@@ -28,4 +28,4 @@ This tool performs classification if utterance could be potentially replaced wit
 4. Maximum Entity Score
 5. Thresholding
 
-Classification is performed with model from [models directory](../blob/main/models/)
+Classification is performed with model from [models directory](../main/models/)
