@@ -14,3 +14,18 @@ Every sample from dataset is
 3. Replaced utterance
 
 ![Example](examples.png)
+
+Soon will be published!
+
+# Code
+
+## Replace Text with Image
+
+This tool performs classification if utterance could be potentially replaced with an image. For this purposes data should contain list of features:
+1. Image Score
+2. Sentence Similarity
+3. BLEU
+4. Maximum Entity Score
+5. Thresholding
+
+Classification is performed with model from (../blob/main/models/)
