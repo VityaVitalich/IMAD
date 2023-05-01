@@ -13,4 +13,4 @@ Every sample from dataset is
 2. Image
 3. Replaced utterance
 
-![Example](http://url/to/img.png)
+![Example](examples.png)
