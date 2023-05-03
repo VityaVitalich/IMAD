@@ -30,13 +30,16 @@ This tool performs classification if utterance could be potentially replaced wit
 
 Classification is performed with model from [models directory](../main/models/).
 Generation of all the features is performed with models from [features scripts directory](../main/scorers/).
-Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb)
+Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb). Note that scripts are using [Pather](#Pather), which is essential to this script
 
 ## Find better image with VQA
 
 This tool is capable of finding better image with the use of BLIP VQA. Long story short it finds top-N (N is specified) images that are closest to utterance and then scores them with VQA model. 
 This is performed with models from [features scripts directory](../main/scorers/).
 Example of usage is shown at [Image Replacing Tutorial](main/VQATest.ipynb)
+
+## Pather
+
 
 # License
 
