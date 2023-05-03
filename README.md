@@ -28,4 +28,20 @@ This tool performs classification if utterance could be potentially replaced wit
 4. Maximum Entity Score
 5. Thresholding
 
-Classification is performed with model from [models directory](../main/models/). Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb)
+Classification is performed with model from [models directory](../main/models/).
+Generation of all the features is performed with models from [features scripts directory](../main/scorers/).
+Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb)
+
+## Find better image with VQA
+
+This tool is capable of finding better image with the use of BLIP VQA. Long story short it finds top-N (N is specified) images that are closest to utterance and then scores them with VQA model. 
+This is performed with models from [features scripts directory](../main/scorers/).
+Example of usage is shown at [Image Replacing Tutorial](main/VQATest.ipynb)
+
+# License
+
+TODO
+
+# References
+
+TODO
