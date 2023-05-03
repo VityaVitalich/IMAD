@@ -15,7 +15,7 @@ Every sample from dataset is
 
 ![Example](examples.png)
 
-Soon will be published!
+Dataset is availible with images_id at [HuggingFace](https://huggingface.co/datasets/VityaVitalich/IMAD) or could be requested with an images directly via email.
 
 # Code
 
