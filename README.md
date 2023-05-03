@@ -42,15 +42,15 @@ Example of usage is shown at [Image Replacing Tutorial](main/VQATest.ipynb)
 
 This is a special dataclass, that contains all the paths that would be used in scripts
 
-* __dialog_features_path__ is the path to the directory where utterances embedding vectors are stored. Initially it could be empty and vectors will be generated during the script run. The example is shown in tutorial and default value is ``` './feature_vectors/test_vectors/' ```
-    image_vectors_path: str = './images/vectors.pt'
-    output_path: str = './outputs/test_output.json'
-    temporary_path: str = './outputs/temporary_path.json'
-    entity_vectors_path: str = './feature_vectors/entity_vectors/'
-    images_dataset_path: str =  './images/dataset.json'
-    path2images: str = './images/full_images'
-    path2images_features: str = './images/vectors'
-    path2trained_model: str = './models/random_forest.joblib'
+* __dialog_features_path__ is the path to the directory where utterances embedding vectors are stored. Initially it could be empty and vectors will be generated during the script run. The example is shown in tutorial and default value is ``` './feature_vectors/test_vectors/' ```. Make sure you create new directory or clean it before running your examples
+* __image_vectors_path__ is the path to the .pt file that contains images embedding vectors. Default value is ``` './images/vectors.pt' ```
+* __output_path__ is the path to the output .json file. Script will save all the output to that path and also read from it sometimes. Default values is ``` './outputs/test_output.json' ``` .
+* __temporary_path__ is the path to the temporary .json file. It is used to store some outputs, that are not valuable at the end. Default values is ``` './outputs/temporary_path.json' ```
+* __entity_vectors_path__ is the path to the directory where entities embedding vectors are stored. Initially it could be empty and vectors will be generated during the script run. Default value is ``` './feature_vectors/entity_vectors/' ```.
+* __images_dataset_path__ : is the path to the dataset containing information about images. It should contain image ids, url, description and ai_desription. You can leave them blank except the id. Default value is ``` './images/dataset.json' ```. 
+* __path2images__ is the path to the directory, that contains raw images. Images should be named with id, that has been used in __images_dataset_path__. Default value is './images/full_images/'.
+* __path2images_features__ is the path to the directory, that contains images embedding vectors, that are named the same as id in __images_dataset_path__. Default value is ``` './images/vectors' ```
+* __path2trained_model__ is the path to the trained model for Text Replacing. You can use the default value ``` './models/random_forest.joblib' ```
 
 
 # License
