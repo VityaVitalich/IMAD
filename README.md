@@ -30,7 +30,7 @@ This tool performs classification if utterance could be potentially replaced wit
 
 Classification is performed with model from [models directory](../main/models/).
 Generation of all the features is performed with models from [features scripts directory](../main/scorers/).
-Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb). Note that scripts are using [Pather](#Pather), which is essential to this script
+Example of usage is shown at [Text Replacing Tutorial](main/TextReplacingTest.ipynb). Note that scripts are using [Paths](#Paths), which is essential to this script
 
 ## Find better image with VQA
 
@@ -38,7 +38,19 @@ This tool is capable of finding better image with the use of BLIP VQA. Long stor
 This is performed with models from [features scripts directory](../main/scorers/).
 Example of usage is shown at [Image Replacing Tutorial](main/VQATest.ipynb)
 
-## Pather
+## Paths
+
+This is a special dataclass, that contains all the paths that would be used in scripts
+
+* __dialog_features_path__ is the path to the directory where utterances embedding vectors are stored. Initially it could be empty and vectors will be generated during the script run. The example is shown in tutorial and default value is ``` './feature_vectors/test_vectors/' ```
+    image_vectors_path: str = './images/vectors.pt'
+    output_path: str = './outputs/test_output.json'
+    temporary_path: str = './outputs/temporary_path.json'
+    entity_vectors_path: str = './feature_vectors/entity_vectors/'
+    images_dataset_path: str =  './images/dataset.json'
+    path2images: str = './images/full_images'
+    path2images_features: str = './images/vectors'
+    path2trained_model: str = './models/random_forest.joblib'
 
 
 # License
