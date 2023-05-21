@@ -15,7 +15,7 @@ Every sample from dataset is
 
 ![Example](examples.png)
 
-Dataset is availible with images_id at [HuggingFace](https://huggingface.co/datasets/VityaVitalich/IMAD) or could be requested with an images directly via email.
+Dataset is availible with images_id at [HuggingFace](https://huggingface.co/datasets/VityaVitalich/IMAD) or could be requested with an images directly via email from [Contacts](#Contacts).
 
 # Code
 
@@ -77,3 +77,6 @@ Or via MLA Citation
 ```
 Viktor, Moskvoretskii et al. “IMAD: IMage-Augmented multi-modal Dialogue.” (2023).
 ```
+# Contacts
+
+Feel free to reach out to us at [vvmoskvoretskiy@yandex.ru] for inquiries, collaboration suggestions, or data requests related to our work.
