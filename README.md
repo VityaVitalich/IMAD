@@ -55,7 +55,7 @@ This is a special dataclass, that contains all the paths that would be used in s
 
 # License
 
-TODO
+All the code is licensed under [Apache 2.0 license](main/LICENSE)
 
 # References
 
