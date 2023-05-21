@@ -55,7 +55,7 @@ This is a special dataclass, that contains all the paths that would be used in s
 
 # License
 
-All the code is licensed under [Apache 2.0 license](main/LICENSE)
+All the code, except fine-tuned BLIP is licensed under [Apache 2.0 license](main/LICENSE). Fine-tuned version of BLIP is licensed under [BSD3](main/LICENSE_BLIP)
 
 # References
 
