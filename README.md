@@ -61,4 +61,19 @@ TODO
 
 To cite this article please use this BibTex reference
 
+```bibtex
+@misc{viktor2023imad,
+      title={IMAD: IMage-Augmented multi-modal Dialogue}, 
+      author={Moskvoretskii Viktor and Frolov Anton and Kuznetsov Denis},
+      year={2023},
+      eprint={2305.10512},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
+Or via MLA Citation
+
+```
+Viktor, Moskvoretskii et al. “IMAD: IMage-Augmented multi-modal Dialogue.” (2023).
+```
