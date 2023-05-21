@@ -59,4 +59,6 @@ TODO
 
 # References
 
-TODO
+To cite this article please use this BibTex reference
+
+
