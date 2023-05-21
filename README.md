@@ -15,7 +15,9 @@ Every sample from dataset is
 
 ![Example](examples.png)
 
-Dataset is availible with images_id at [HuggingFace](https://huggingface.co/datasets/VityaVitalich/IMAD) or could be requested with an images directly via email from [Contacts](#Contacts).
+Dataset is availible with images_id at [HuggingFace](https://huggingface.co/datasets/VityaVitalich/IMAD). Due to the images specific license we are unable to publish them, but you can still obtain the full dataset without any difficulties. There are two ways of doing it:
+1. Request full image dataset from [Unsplash](https://unsplash.com/data) and match via image_id in dataset
+2. Request full dataset directly via email from [Contacts](#Contacts).
 
 # Code
 
