@@ -57,7 +57,7 @@ This is a special dataclass, that contains all the paths that would be used in s
 
 # License
 
-All the code, except fine-tuned BLIP is licensed under [Apache 2.0 license](main/LICENSE). Fine-tuned version of BLIP is licensed under [BSD3](main/LICENSE_BLIP)
+All the code, except fine-tuned BLIP is licensed under [Apache 2.0 license](main/LICENSE). Fine-tuned version of BLIP is licensed under [BSD3](main/LICENSE_BLIP). Text version of IMAD Dataset is licensed under [Creative Commons NC](main/LICENSE_DATASET), dataset with images is licensed under [Unsplash License](main/LICENSE_UNSPLASH).
 
 # References
 
